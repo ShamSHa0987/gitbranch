@@ -10,7 +10,7 @@ private_subnet_3_cidr = "10.0.5.0/24"
 private_subnet_4_cidr = "10.0.6.0/24"
 private_subnet_5_cidr = "10.0.7.0/24"
 private_subnet_6_cidr = "10.0.8.0/24"i
-availability_zone_1b = "us-east-1b"
+
 vpc_id            = module.vpc.vpc_id
  allowed_ssh_cidr = ["0.0.0.0/0"]   
 }
